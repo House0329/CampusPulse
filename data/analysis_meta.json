@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "k": 4,
+  "features": [
+    "quiet",
+    "comfort",
+    "wifi",
+    "power",
+    "discussion",
+    "lighting",
+    "low_crowding"
+  ],
+  "mu": [
+    3.28,
+    4.056667,
+    4.307222,
+    3.934444,
+    3.287778,
+    4.213333,
+    3.088889
+  ],
+  "sigma": [
+    1.066599,
+    0.300721,
+    0.373791,
+    0.602137,
+    1.264193,
+    0.312517,
+    0.75159
+  ],
+  "pca_explained_variance": [
+    0.47396,
+    0.382178
+  ],
+  "cluster_names": [
+    "Social Study",
+    "Deep Focus",
+    "Quick Work",
+    "Group Collaboration"
+  ],
+  "cluster_counts": {
+    "Social Study": 5,
+    "Deep Focus": 4,
+    "Quick Work": 5,
+    "Group Collaboration": 4
+  },
+  "note": "Clusters and PCA are precomputed. PCA is not geographic. Data are synthetic."
+}
